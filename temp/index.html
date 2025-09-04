@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Korepetycje</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Korepetycje Informatyka</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">O mnie</a></li>
+          <li><a href="#experience">Oferta</a></li>
+          <li><a href="#contact">Kontakt</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Korepetycje Informatyka</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">O mnie</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Oferta</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Kontkat</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img id="pp" src="../assets/profile-pic.png" alt="Joh Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Witam, jestem</p>
+        <h1 class="title">Wiktor Węgiel</h1>
+        <p class="section__text__p2">Korepetytor Informatyki</p>
+        <div class="btn-container">
+          <a target="_blank" href="https://www.olx.pl/d/oferta/egzaminy-zawodowe-inf-02-inf-03-profesjonalne-korepetycje-informatyka-CID4371-IDUFFgO.html">
+          <button
+            class="btn btn-color-2"
+          >
+            Ogłoszenie
+          </button>
+          </a>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Kontakt
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Dowiedz się więcej</p>
+      <h1 class="title">O mnie</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="../assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="../assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Doświadczenie</h3>
+              <p>4+ lat <br />Korepetytor Informatyki</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="../assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Edukacja</h3>
+              <p>- Technik Informatyk 94% <br />- Politechnika Łódzka INŻ. Data Science</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+Nazywam się Wiktor Węgiel. Jestem studentem Data Science na Politechnice Łódzkiej z 4-letnim doświadczeniem jako korepetytor informatyki. Przygotowałem ponad 80 uczniów do egzaminów zawodowych INF.02/INF.03, pomogłem im zrozumieć trudne zagadnienia z programowania, administracji systemami oraz sieci komputerowych.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="../assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Poznaj</p>
+      <h1 class="title">Ofertę</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Przygotwanie do egzaminu zawodowego INF.02/ INF.03</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="../assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Strony Internetowe</h3>
+                  <p>Zaawansowany</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="../assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PHP / JS</h3>
+                  <p>Zaawansowany</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="../assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Systemy Operacyjne</h3>
+                  <p>Zaawansowany</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="../assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Sieci Komputerowe</h3>
+                  <p>Zaawansowany</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="../assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Bazy Danych</h3>
+                  <p>Zaawansowany</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="../assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Teoria</h3>
+                  <p>Zaawansowany</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Projekty zaliczeniowe / Zadania Liceum</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="../assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Excel</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="../assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Prezentacje</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="../assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Kolokwia</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="../assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Projekty</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="../assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Sprawdź</p>
+      <h1 class="title">Opinie</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="../assets/1.png" alt="Project 1" class="project-img">
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="../assets/2.png" alt="Project 2" class="project-img">
+            </div>
+          </div>
+
+      </div>
+      <img src="../assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'">
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Bezpośrednio</p>
+      <h1 class="title">Kontkat</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="../assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:wwegiel@icloud.com">wwegiel@icloud.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="../assets/call.png"
+            alt="Tel icon"
+            class="icon contact-icon"
+          />
+          <p><a>539-015-644</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">O mnie</a></li>
+            <li><a href="#experience">Oferta</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Wiktor Węgiel. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
